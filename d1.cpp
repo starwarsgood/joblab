@@ -1,19 +1,18 @@
-#include <iostream.h>
+#include <iostream>
 #include <string>
-#include <locale.h>
-#include <clocale>
+
 using namespace std;
 int main()
     {
           int age,tr;
-          setlocale(LC_ALL,"Russian");
-           SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
-          // Вывводится сообщение
-          cout <<"Hello, World!\n";
-          cin >> age;
-          cout << "Ваше число" << age;
-          cin >> age;
+          // The message
+          cout<<"Привет мир!\n";
+          cout<<"Введите 1 число\n";
+          cin>>age;
+          cout<<"Ваше число= "<<age<<endl;
+          cout<<"Введи еще 1 число"<<endl;
+          cin>>tr;
+          cout<<"Ваше второе число= "<<tr<<endl;
           system("pause");
           return 0;
 }
