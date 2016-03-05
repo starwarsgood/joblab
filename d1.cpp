@@ -6,13 +6,13 @@ int main()
     {
           int age,tr;
           // The message
-          cout<<"Привет мир!\n";
-          cout<<"Введите 1 число\n";
+          cout<<"Hello World!\n";
+          cout<<"Write 1 number\n";
           cin>>age;
-          cout<<"Ваше число= "<<age<<endl;
-          cout<<"Введи еще 1 число"<<endl;
+          cout<<"Your number= "<<age<<endl;
+          cout<<"Enter the number 1"<<endl;
           cin>>tr;
-          cout<<"Ваше второе число= "<<tr<<endl;
+          cout<<"Write 2 number= "<<tr<<endl;
           system("pause");
           return 0;
 }

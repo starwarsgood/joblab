@@ -8,23 +8,15 @@ int main()
           int age,tr;
           setlocale(LC_ALL,"Russian");
           // Вывводится сообщение
-          cout <<"Hello, World!\n";
+          cout <<"Hello, World!\n"<<endl;
           cin >> age;
-          cout << "dddddddddd" << age;
-          cin >> age;
-          cout << " asasasa\n";
+          cout << "Your number= "<<age<<endl;
+          cin >> tr;
+          cout << "Your number 2= "<<tr<<endl;
           cout << endl;
-          cout << endl;
-          cout << endl;
-          cout <<" _______ 4";
-          int s;
-          s=10;
-          int summa=0;
-          summa=++s;
-          cout << summa;
-          cout << "\n";
-          summa=s++;
-          cout << summa;
+          int s=10;
+          s=s++;
+          cout<<"All sum= "<<s+tr+age<<endl;
           system("pause");
           return 0;
 }
